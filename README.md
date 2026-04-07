@@ -56,6 +56,12 @@ The Power BI dashboard provides:
 
 ---
 
+## Dashboard Preview
+
+![IFRS9 Dashboard](docs/dashboard.png)
+
+---
+
 ## Business Value
 
 This project demonstrates how to:
