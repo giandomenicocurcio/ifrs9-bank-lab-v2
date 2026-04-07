@@ -1,0 +1,1 @@
+\copy (SELECT snapshot_date, SUM(ecl) AS total_ecl FROM risk.ifrs9_exposure_snapshot GROUP BY snapshot_date ORDER BY snapshot_date) TO '/home/gcquant/ifrs9_bank_lab_v2/reports/csv/pbi_ecl_trend.csv' CSV HEADER;

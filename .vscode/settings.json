@@ -1,0 +1,26 @@
+{
+    "sqltools.connections": [
+        {
+            "ssh": "Disabled",
+            "previewLimit": 50,
+            "server": "172.21.227.223",
+            "port": 5432,
+            "driver": "PostgreSQL",
+            "name": "ifrs9_bank_lab_v2",
+            "database": "ifrs9_bank_lab_v2",
+            "username": "gcquant",
+            "password": "NewPassword123"
+        },
+        {
+            "ssh": "Disabled",
+            "previewLimit": 50,
+            "server": "172.21.227.223",
+            "port": 5432,
+            "driver": "PostgreSQL",
+            "name": "swiss_bank_lab",
+            "database": "swiss_bank_lab",
+            "username": "gcquant",
+            "password": "NewPassword123"
+        }
+    ]
+}
